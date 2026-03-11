@@ -1,66 +1,32 @@
-.volt {
-  font-family: 'Arial', sans-serif;
-  background-color: #000;
-  color: #FFD700;
-  margin: 0;
-  padding: 0;
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
 }
 
 .header {
-  background-color: #000;
-  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
   text-align: center;
 }
 
-.header h1 {
-  font-size: 36px;
-  animation: fadeIn 2s;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #FFD700;
-  padding: 10px;
-}
-
-.navbar a {
-  color: #000;
-  padding: 14px 20px;
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
   text-decoration: none;
-  text-align: center;
-  transition: background-color 0.3s;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
 
-.navbar a:hover {
-  background-color: #000;
-  color: #FFD700;
-}
-
-.container {
-  width: 80%;
-  margin: auto;
-  padding: 20px;
-  overflow: hidden;
-}
-
-.footer {
-  background-color: #000;
-  color: #FFD700;
-  text-align: center;
-  padding: 20px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-  }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
 }
